@@ -16,8 +16,9 @@ Application based around practicing component trees.
 ## Specs
 <img src="src/assets/img/social-media-clone.jpg"
      alt="Application Component Tree"
-     style="float: center" 
-     height= "400" />  
+     style="float: center"
+     width = "600" 
+     height= "auto" />  
 
 ## Known Bugs
 

@@ -3,7 +3,9 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <h1>BookFace</h1>
+      <a href="/">Home</a>
+      <a href="/">Notification</a>
+      <a href="/">Message</a>
     </div>
   );
 }

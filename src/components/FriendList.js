@@ -1,17 +1,18 @@
 import React from "react";
 import Sunflower from "../assets/img/sunflower.jpg";
+import Friend from "./Friend";
 
 const masterFriendList = [
   {
-    img: '${Sunflower}',
+    img: '../assets/img/sunflower.jpg',
     names: 'Jenny'
   }, 
   {
-    img: '${Sunflower}',
+    img: '../assets/img/sunflower.jpg',
     names: 'Steve'
   },
   {
-    img: '${Sunflower}',
+    img: '../assets/img/sunflower.jpg',
     names: 'Ann'
   }
 
@@ -24,7 +25,7 @@ function FriendList() {
       {masterFriendList.map((friend, id) =>
         <Friend 
           img={Sunflower}
-          name={friend.names}
+          names={friend.names}
           key={id} />
       )}
     </React.Fragment>

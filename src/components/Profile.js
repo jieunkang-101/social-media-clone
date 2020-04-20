@@ -1,12 +1,12 @@
 import React from "react";
-// import ProfileImage from '../assets/img/sunflower.jpg';
+import Sunflower from "../assets/img/sunflower.jpg";
 
 function Profile() {
   return (
     <div>
-      <h3>User's Profile</h3>
-      <p>Kellie A. Corrigan</p>
-      <img src="../assets/img/sunflower.jpg" alt="Profile"></img>
+      <h2>User's Profile</h2>
+      <img src={Sunflower} alt="Profile"></img>
+      <h3>Kellie A. Corrigan</h3>
     </div>
   );
 }

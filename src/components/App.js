@@ -1,9 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Profile from './Profile';
 
 function App() {
   return (
-    <Navbar />
+    <React.Fragment>
+      <Navbar />
+      <Profile />
+    </React.Fragment>
   );
 }
 
